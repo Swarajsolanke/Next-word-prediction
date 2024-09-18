@@ -17,7 +17,7 @@ import pickle
 #load the LSTM model 
 model=load_model('word_prediction.h5')
 #load the tokenizer
-with open('D:\krishnaik course projects/Next word prediction/tokenizer.pickle','rb') as handle:
+with open('tokenizer.pickle','rb') as handle:
     tokenizer=pickle.load(handle)
 
 #function for predicting the next word 

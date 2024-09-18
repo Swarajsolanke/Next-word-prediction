@@ -15,7 +15,7 @@ from tensorflow.keras.models import load_model
 import pickle 
 
 #load the LSTM model 
-model=load_model('D:\krishnaik course projects/Next word prediction/word_prediction.h5')
+model=load_model('word_prediction.h5')
 #load the tokenizer
 with open('D:\krishnaik course projects/Next word prediction/tokenizer.pickle','rb') as handle:
     tokenizer=pickle.load(handle)
